@@ -12,12 +12,11 @@
     />
     <!--Шрифт-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
     <!--Подключенные стили-->
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
@@ -543,56 +542,61 @@
     <!---Модальное окно-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
         <p></p>
         <form class="form" autocomplete="off">
-          <label class="form-field">
-            <input type="text" class="form-input" name="name" placeholder=" " />
-            <span class="form-label">Имя</span>
-            <svg class="icon-input">
+          <label class="form__field">
+            <input
+              type="text"
+              class="form__input"
+              name="name"
+              placeholder=" "
+            />
+            <span class="form__label">Имя</span>
+            <svg class="form__input-icon">
               <use href="./images/symbol-defs.svg#icon-person"></use>
             </svg>
           </label>
 
-          <label class="form-field">
-            <input type="tel" class="form-input" name="tel" placeholder=" " />
-            <span class="form-label">Телефон</span>
-            <svg class="icon-input">
+          <label class="form__field">
+            <input type="tel" class="form__input" name="tel" placeholder=" " />
+            <span class="form__label">Телефон</span>
+            <svg class="form__input-icon">
               <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
             </svg>
           </label>
 
-          <label class="form-field">
+          <label class="form__field">
             <input
               type="email"
-              class="form-input"
+              class="form__input"
               name="mail"
               placeholder=" "
             />
-            <span class="form-label">Почта</span>
-            <svg class="icon-input">
+            <span class="form__label">Почта</span>
+            <svg class="form__input-icon">
               <use href="./images/symbol-defs.svg#icon-email-modal"></use>
             </svg>
           </label>
-          <div class="form-field comment">
+          <div class="form__field comment">
             <textarea
               name="comment"
               id="comment"
               placeholder="Введите текст"
-              class="form-input comment"
+              class="form__input comment"
             ></textarea>
-            <label for="comment" class="form-label comment">Комментарий</label>
+            <label for="comment" class="form__label comment">Комментарий</label>
           </div>
-          <label class="checkbox-label">
+          <label class="checkbox__label">
             <input class="checkbox" type="checkbox" />
-            <span class="icon-check"></span>
+            <span class="checkbox__icon-check"></span>
             Соглашаюсь с рассылкой и принимаю
-            <a class="modal-link" href="#"> Условия договора</a>
+            <a class="modal__policy-link" href="#"> Условия договора</a>
           </label>
-          <button class="button send" type="submit">Отправить</button>
+          <button class="button form__send" type="submit">Отправить</button>
         </form>
 
-        <button class="btn-close" data-modal-close>
+        <button class="modal__btn-close" data-modal-close>
           <svg class="close-icon">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
