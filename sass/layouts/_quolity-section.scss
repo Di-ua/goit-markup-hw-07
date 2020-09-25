@@ -1,0 +1,58 @@
+.section.quolity {
+  padding-top: 94px;
+}
+
+.quolity-caption {
+  display: none;
+}
+
+.quolity.list {
+  display: flex;
+}
+
+.quolity-item {
+  width: calc((100% - 30px * 3) / 4);
+}
+
+.quolity-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.quolity-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  outline: 1px transparent;
+  background-repeat: no-repeat;
+  background-color: $secondary-background-color;
+  background-position: center;
+}
+
+.icon-microscope::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.icon-intime::before {
+  background-image: url(../images/clock.svg);
+}
+
+.icon-planing::before {
+  background-image: url(../images/planer.svg);
+}
+
+.icon-techno::before {
+  background-image: url(../images/astronaut.svg);
+}
+
+.quolity-title {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.14;
+}
+
+.quolity-text {
+  color: $secondary-text-color;
+  font-size: 14px;
+  line-height: 1.7;
+}
