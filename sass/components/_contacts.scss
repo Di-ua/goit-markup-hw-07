@@ -7,10 +7,10 @@
 
 .contacts-item:active {
   color: red;
-}
 
-.contacts-item:not(:last-child) {
-  margin-right: 50px;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contacts.link {
