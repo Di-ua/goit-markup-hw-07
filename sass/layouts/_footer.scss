@@ -4,6 +4,18 @@
   padding-bottom: 60px;
 }
 
+.footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  & > .icon {
+    fill: $hero-text-color;
+  }
+}
+
+.mailing.block {
+  margin-left: 94px;
+}
+
 .container.flexbox {
   align-items: baseline;
 }
@@ -23,18 +35,6 @@
 
   margin-top: 0;
   margin-bottom: 20px;
-}
-
-.footer-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-link > .icon {
-  fill: $hero-text-color;
-}
-
-.mailing.block {
-  margin-left: 94px;
 }
 
 .form-field.footer-form-field {

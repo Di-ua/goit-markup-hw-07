@@ -6,26 +6,26 @@
   display: none;
 }
 
-.quolity.list {
+.quolity__list {
   display: flex;
 }
 
 .quolity-item {
   width: calc((100% - 30px * 3) / 4);
-}
 
-.quolity-item:not(:last-child) {
-  margin-right: 30px;
-}
+  &:not(:last-child) {
+    margin-right: 30px;
 
-.quolity-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  outline: 1px transparent;
-  background-repeat: no-repeat;
-  background-color: $secondary-background-color;
-  background-position: center;
+    &::before {
+      display: block;
+      content: "";
+      height: 120px;
+      outline: 1px transparent;
+      background-repeat: no-repeat;
+      background-color: $secondary-background-color;
+      background-position: center;
+    }
+  }
 }
 
 .icon-microscope::before {

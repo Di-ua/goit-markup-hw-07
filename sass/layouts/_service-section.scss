@@ -8,12 +8,13 @@
   padding-bottom: 94px;
 }
 
-.service-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .service-item {
   position: relative;
+  width: calc((100% - 30px * 2) / 3);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .service-item::before {
@@ -38,8 +39,4 @@
   bottom: 9%;
   right: 0%;
   transform: translateX(-45%);
-}
-
-.service-item {
-  width: calc((100% - 30px * 2) / 3);
 }
