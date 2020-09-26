@@ -15,17 +15,17 @@
 
   &:not(:last-child) {
     margin-right: 30px;
-
-    &::before {
-      display: block;
-      content: "";
-      height: 120px;
-      outline: 1px transparent;
-      background-repeat: no-repeat;
-      background-color: $secondary-background-color;
-      background-position: center;
-    }
   }
+}
+
+.quolity-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  outline: 1px transparent;
+  background-repeat: no-repeat;
+  background-color: $secondary-background-color;
+  background-position: center;
 }
 
 .icon-microscope::before {

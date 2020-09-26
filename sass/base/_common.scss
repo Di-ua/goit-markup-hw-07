@@ -16,10 +16,13 @@ body {
   margin-right: auto;
 }
 
-.list {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section.no-padding {
