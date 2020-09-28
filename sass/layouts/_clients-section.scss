@@ -33,30 +33,36 @@
   fill: currentColor;
 }
 
-.first {
+.client:nth-child(1) {
   width: 45px;
   height: 50px;
 }
 
-.second {
+// .first {
+//   width: 45px;
+//   height: 50px;
+// }
+
+.client:nth-child(2) {
   width: 40px;
   height: 52px;
 }
 
-.third {
+.client:nth-child(3) {
   width: 41px;
   height: 43px;
 }
-.fourth {
+.client:nth-child(4) {
   width: 80px;
   height: 42px;
 }
-.fifth {
+
+.client:nth-child(5) {
   width: 59px;
   height: 47px;
 }
 
-.sixth {
+.client:nth-child(6) {
   width: 89px;
   height: 46px;
 }

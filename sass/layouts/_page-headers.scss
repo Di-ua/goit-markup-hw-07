@@ -20,25 +20,17 @@
 
 .site-nav {
   display: flex;
-}
 
-.site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  & .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 .contacts {
   display: flex;
 }
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* site-nav */
 
 .site-nav .link.current {
   color: $accent-text-color;
