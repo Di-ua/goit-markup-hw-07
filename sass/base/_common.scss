@@ -8,12 +8,10 @@ body {
   letter-spacing: 0.03em;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -23,11 +21,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.section.no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 a {
