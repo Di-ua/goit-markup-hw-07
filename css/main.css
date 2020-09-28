@@ -430,6 +430,11 @@ a {
   padding-bottom: 0;
 }
 
+.section.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section.staff {
   display: flex;
   flex-wrap: wrap;
@@ -841,11 +846,6 @@ img {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-}
-
-.section.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .hero-title-portfolio {
